@@ -15,7 +15,7 @@
 
 @implementation ViewController
 
-//CoreGraphics
+//CoreGraphics http://www.jianshu.com/p/521a11919d5e
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

@@ -60,7 +60,7 @@
 //    [aPath stroke];
 //}
 
-//组合
+//组合 
 - (void)drawRect:(CGRect)rect {
     CGSize size = self.bounds.size;
     CGFloat margin = 10;
