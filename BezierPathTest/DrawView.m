@@ -42,12 +42,17 @@
     //正方形
 //    UIBezierPath* aPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(20, 20, 100, 100)];
     //圆弧
-    UIBezierPath* aPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(150, 150)
-                                                         radius:75
-                                                     startAngle:0
-                                                       endAngle:135.0/360.0*2.0*M_PI
-                                                      clockwise:YES];
-    //画图demo明天接着继续
+//    UIBezierPath* aPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(150, 150)
+//                                                         radius:75
+//                                                     startAngle:0
+//                                                       endAngle:135.0/360.0*2.0*M_PI
+//                                                      clockwise:YES];
+    //曲线
+    UIBezierPath* aPath = [UIBezierPath bezierPath];
+    [aPath moveToPoint:CGPointMake(20, 100)];
+    
+    [aPath addQuadCurveToPoint:CGPointMake(120, 100) controlPoint:CGPointMake(70, 0)];
+    
     aPath.lineWidth = 5.0;
     aPath.lineCapStyle = kCGLineCapRound; //线条拐角
     aPath.lineJoinStyle = kCGLineCapRound; //终点处理
