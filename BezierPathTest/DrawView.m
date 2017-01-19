@@ -47,7 +47,7 @@
                                                      startAngle:0
                                                        endAngle:135.0/360.0*2.0*M_PI
                                                       clockwise:YES];
-    
+    //画图demo明天接着继续
     aPath.lineWidth = 5.0;
     aPath.lineCapStyle = kCGLineCapRound; //线条拐角
     aPath.lineJoinStyle = kCGLineCapRound; //终点处理
