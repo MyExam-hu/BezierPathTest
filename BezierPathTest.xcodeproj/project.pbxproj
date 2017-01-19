@@ -13,6 +13,7 @@
 		B450D20C1E3053950041A44F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B450D20A1E3053950041A44F /* Main.storyboard */; };
 		B450D20E1E3053950041A44F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B450D20D1E3053950041A44F /* Assets.xcassets */; };
 		B450D2111E3053950041A44F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B450D20F1E3053950041A44F /* LaunchScreen.storyboard */; };
+		B450D21A1E3054BE0041A44F /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B450D2191E3054BE0041A44F /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B450D20D1E3053950041A44F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B450D2101E3053950041A44F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B450D2121E3053950041A44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B450D2181E3054BE0041A44F /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		B450D2191E3054BE0041A44F /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				B450D2071E3053950041A44F /* ViewController.h */,
 				B450D2081E3053950041A44F /* ViewController.m */,
 				B450D20A1E3053950041A44F /* Main.storyboard */,
+				B450D2181E3054BE0041A44F /* DrawView.h */,
+				B450D2191E3054BE0041A44F /* DrawView.m */,
 				B450D20D1E3053950041A44F /* Assets.xcassets */,
 				B450D20F1E3053950041A44F /* LaunchScreen.storyboard */,
 				B450D2121E3053950041A44F /* Info.plist */,
@@ -152,6 +157,7 @@
 			files = (
 				B450D2091E3053950041A44F /* ViewController.m in Sources */,
 				B450D2061E3053950041A44F /* AppDelegate.m in Sources */,
+				B450D21A1E3054BE0041A44F /* DrawView.m in Sources */,
 				B450D2031E3053950041A44F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BezierPathTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.item.BezierPathTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BezierPathTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.item.BezierPathTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
