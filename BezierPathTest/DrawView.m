@@ -77,7 +77,7 @@
         yOffset = rintf(margin / 2);
     }
     
-    [[UIColor redColor] setFill];
+    [[UIColor magentaColor] setFill];
     UIBezierPath *path = [UIBezierPath bezierPath];
     
     [path addArcWithCenter:CGPointMake(radius * 2 + xOffset, radius + yOffset)
